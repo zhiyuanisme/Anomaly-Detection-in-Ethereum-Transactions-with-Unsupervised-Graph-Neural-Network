@@ -1,0 +1,34 @@
+# Core dependencies for Anomaly Detection in Ethereum Transactions
+# 以太坊交易异常检测核心依赖
+
+# Deep Learning and Graph Neural Networks
+torch>=1.9.0
+torch-geometric>=2.0.0
+torch-scatter>=2.0.0
+torch-sparse>=0.6.0
+torch-cluster>=1.5.0
+
+# Graph Processing
+networkx>=2.6
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Data Processing and Utilities
+pandas>=1.3.0
+pickle5>=0.0.11
+tqdm>=4.62.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Development and Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Optional: for enhanced performance
+# numba>=0.54.0  # Uncomment if needed for performance optimization
